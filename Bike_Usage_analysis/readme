@@ -1,0 +1,26 @@
+# Dublin City-Bike Usage Analysis Amidst COVID-19
+
+## Overview
+This project examines the impact of the COVID-19 pandemic on the usage patterns of Dublin's city-bike sharing system. Using advanced machine learning techniques, including RandomForest and LSTM models, the study provides forecasts that help understand shifts in urban mobility during and after the pandemic. The analysis integrates key data points such as geographical coordinates, temporal patterns, and weather conditions to offer insights useful for urban planning and public policy.
+
+## Dataset
+The dataset used in this analysis can be found at the following link: use this https://drive.google.com/file/d/1d2STtjQIvvMvVts2P0awYyHtp-P03j3I/view?usp=drive_link
+This dataset includes records from Dublin's city-bike system and relevant weather data that were crucial for the analysis.
+
+## Hyperparameter tuning results-
+The tuning results can be found in this link but it is preffered to run the hyper parameter tunning once.
+https://drive.google.com/file/d/1fu3K7VX20rpWWzFOmo6j6yOdNthszhBg/view?usp=drive_link
+
+
+## Repository Structure
+- `README.md`: This file, providing an overview and instructions for navigating the repository.
+- `final_task1.ipynb`: A Jupyter notebook containing the analysis and modeling for Task 1, which focuses on the initial impact of the COVID-19 pandemic on bike usage. This includes preprocessing, feature engineering, and the development of a RandomForest model to analyze feature importance and predict usage patterns during the pandemic.
+- `final_task2.ipynb`: A Jupyter notebook dedicated to Task 2, which explores the post-pandemic recovery phase. This notebook details the application of LSTM models to predict longer-term trends in bike usage as the city adapted to new norms post-pandemic.
+
+## Getting Started
+To run the notebooks locally, ensure you have Jupyter Notebook installed, or use JupyterLab. Follow these steps:
+1. Clone this repository to your local machine.
+2. Install required Python packages:
+   ```bash
+   pip install -r requirements.txt
+3. Open the notebooks (final_task1.ipynb and final_task2.ipynb) in Jupyter to view and run the analysis.
